@@ -9,9 +9,7 @@
             "request": "launch",
             "name": "Launch Firefox",
             "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}",
-            "sourceMaps": true,
-            "disableNetworkCache": true
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
