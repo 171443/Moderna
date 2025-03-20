@@ -9,7 +9,17 @@
             "request": "launch",
             "name": "Launch Firefox",
             "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}"
+            "webRoot": "${workspaceFolder}",
+            "firefoxArgs": ["-P", "debug"],
+            "profileDir": "${workspaceFolder}/.vscode/firefox-debug-profile",
+            "keepProfileChanges": true,
+            "reAttach": true,
+            "pathMappings": [
+                {
+                    "url": "webpack:///src/",
+                    "path": "${workspaceFolder}/src/"
+                }
+            ]
         }
     ]
 }
