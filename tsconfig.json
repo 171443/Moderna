@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    // ...existing code...
+    "outDir": "./dist",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    // ...existing code...
+  }
+}
